@@ -16,14 +16,15 @@ const Skills = () => {
     { id: 5, src: javascript, title: 'JAVA SCRIPT', style: 'shadow-yellow-500' },
     { id: 6, src: reactjs, title: 'REACT JS', style: 'shadow-blue-500' },
     { id: 7, src: nextjs, title: 'NEXT JS', style: 'shadow-white' },
-     { id: 8, src: github, title: 'GITHUB', style: 'shadow-white' },
+    { id: 8, src: github, title: 'GITHUB', style: 'shadow-white' },
+  
     
   ];
 
   return (
-    <div name='Skills' className='bg-gradient-to-b from-gray-900 to-black w-full h-screen'>
-      <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
-        <div>
+    <div name='Skills' className='bg-gradient-to-b from-black to-gray-900 w-full min-h-screen'>
+      <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full  text-white'>
+        <div className='mt-20'>
           <p className='text-4xl font-bold p-2 inline border-b-4 border-gray-500'>Skills</p>
           <p className='py-6'>These are the technologies I've worked with</p>
 

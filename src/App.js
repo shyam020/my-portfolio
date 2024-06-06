@@ -6,19 +6,22 @@ import About from "./components/About";
 // import Project from "./components/Project";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 function App() {
   return (
-    <>
+    <Router>
       <Navbar />
-      <div>
-        <Home />
-        <About />
-        {/* <Project /> */}
-        <Skills />
-        <Contact />
-        <SocialLinks />
-      </div>
-    </>
+      <SocialLinks />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="home" element={<Home />} />
+        <Route path="about" element={<About />} />
+        {/* <Route path="projects" element={ <Projects /> } /> */}
+        <Route path="skills" element={<Skills />} />
+        <Route path="contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }
 

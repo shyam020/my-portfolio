@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import { Link } from 'react-router-dom';
 import { FaBars, FaTimes} from "react-icons/fa"
 
 
@@ -23,7 +23,7 @@ const Navbar = () => {
   },
   {
     id : 4,
-    link : "experience",
+    link : "skills",
   },
   {
     id : 5,
@@ -44,7 +44,7 @@ const Navbar = () => {
  <li
   key={id} 
  className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200'>
-    {link}
+     <Link to={`/${link}`} onClick={() => setNav(false)}>{link}</Link>
  </li>
     ))}
     </ul>
@@ -60,7 +60,7 @@ const Navbar = () => {
       key={id} 
             className='p-3  cursor-pointer capitalize font-medium text-xl
       text-gray-400 hover:scale-105 duration-200'>
-        {link}
+         <Link to={`/${link}`} onClick={() => setNav(false)}>{link}</Link>
      </li>
         ))}
         
