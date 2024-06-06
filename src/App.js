@@ -1,9 +1,23 @@
 import "./App.css";
-
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import SocialLinks from "./components/SocialLinks";
+import About from "./components/About";
+// import Project from "./components/Project";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Navbar />
+      <div>
+        <Home />
+        <About />
+        {/* <Project /> */}
+        <Skills />
+        <Contact />
+        <SocialLinks />
+      </div>
     </>
   );
 }
