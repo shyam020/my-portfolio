@@ -1,7 +1,8 @@
 import React from 'react'
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedin,FaInstagram } from 'react-icons/fa';
-// import { HiOutlineMail } from 'react-icons/hi';
+import { FaGithub, FaLinkedin, } from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi';
+
 
 const socialLinks = () => {
 
@@ -19,10 +20,10 @@ const socialLinks = () => {
       id: 2,
       child: (
         <>
-          Instagram <FaInstagram size={30} />
+          Email <HiOutlineMail size={30} />
         </>
       ),
-      href: "https://www.instagram.com/shyam._7777/",  
+      href: "mailto:patelshyam18352@gmail.com",  
     },
     {
       id: 3,
@@ -40,7 +41,7 @@ const socialLinks = () => {
           Resume <BsFillPersonLinesFill size={ 30 } />
         </>
       ),
-      href: "https://www.linkedin.com/in/shyam-patel-1312a62a8/",
+      href: "/Resume.pdf",
       download: true,
     },
    ];
