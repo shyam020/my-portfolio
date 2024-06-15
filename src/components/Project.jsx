@@ -1,45 +1,46 @@
 import React from 'react';
-import todolist from "../assects/gfg.png"
+// import todolist from "../assects/gfg.png";
+import Docsmini from  "../assects/Docs-mini.png";
 
 const Project = () => {
 
   const projects = [
     {
       id: 1,
-      src: todolist,
-      link: 'https://github.com/shyam020',
-         websiteLink: 'https://www.linkedin.com/in/shyam-patel-1312a62a8/',
+      src: Docsmini,
+      link: 'https://github.com/shyam020/Docs-mini',
+         websiteLink: 'https://docs-mini.netlify.app/',
     },
-    {
-      id: 2,
-      src: todolist,
-      link: 'https://github.com/shyam020',
-          websiteLink: 'https://www.linkedin.com/in/shyam-patel-1312a62a8/',
-    },
-    {
-      id: 3,
-      src: todolist,
-      link: 'https://github.com/shyam020',
-          websiteLink: 'https://www.linkedin.com/in/shyam-patel-1312a62a8/',
-    },
-    {
-      id: 4,
-      src: todolist,
-      link: 'https://github.com/shyam020',
-          websiteLink: 'https://www.linkedin.com/in/shyam-patel-1312a62a8/',
-    }, {
+  //   {
+  //     id: 2,
+  //     src: todolist,
+  //     link: 'https://github.com/shyam020',
+  //         websiteLink: 'https://www.linkedin.com/in/shyam-patel-1312a62a8/',
+  //   },
+  //   {
+  //     id: 3,
+  //     src: todolist,
+  //     link: 'https://github.com/shyam020',
+  //         websiteLink: 'https://www.linkedin.com/in/shyam-patel-1312a62a8/',
+  //   },
+  //   {
+  //     id: 4,
+  //     src: todolist,
+  //     link: 'https://github.com/shyam020',
+  //         websiteLink: 'https://www.linkedin.com/in/shyam-patel-1312a62a8/',
+  //   }, {
 
-      id: 5,
-      src: todolist,
-      link: 'https://github.com/shyam020',
-          websiteLink: 'https://www.linkedin.com/in/shyam-patel-1312a62a8/',
-    },
-  {
-           id: 6,
-    src: todolist,
-    link: 'https://github.com/shyam020',
-          websiteLink: 'https://www.linkedin.com/in/shyam-patel-1312a62a8/',
-    },
+  //     id: 5,
+  //     src: todolist,
+  //     link: 'https://github.com/shyam020',
+  //         websiteLink: 'https://www.linkedin.com/in/shyam-patel-1312a62a8/',
+  //   },
+  // {
+  //          id: 6,
+  //   src: todolist,
+  //   link: 'https://github.com/shyam020',
+  //         websiteLink: 'https://www.linkedin.com/in/shyam-patel-1312a62a8/',
+  //   },
   ]
   return (
     <div name="projects" className=' h-full  w-full bg-gradient-to-b from-black via-black to-gray-900  text-white'>
@@ -48,7 +49,7 @@ const Project = () => {
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Projects</p>
           <p className='py-6'>Check out some of my work right here.</p>
         </div>
-  <div  className='grid sm:grid-col-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+  <div  className='grid sm:grid-col-2 md:grid-cols-2 gap-8 px-12 sm:px-0'>
         {
           projects.map(({ id, src,link,websiteLink }) => (
             

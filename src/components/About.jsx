@@ -18,10 +18,10 @@ const About = () => {
         </div>
         <div className='border rounded-lg border-gray-500 shadow-lg p-4 mt-10  duration-200 hover:scale-105'>
           <div className=' flex justify-between gap-1'>
-          <p className='text-2xl font-bold'> Frontend Developer | bhithub Technologies Pvt. LTD</p>
+          <p className='text-2xl font-bold'>Full-stack Developer | bhithub Technologies Pvt. LTD</p>
           <p className='text-sm'>Feb ‘26 - Jun‘30</p>
         </div>
-        <div className='py-4'>
+        <div className='py-4 text-gray-500'>
           <p>I design and develop full-stack web applications, create and manage MongoDB databases, and build RESTful APIs using Node.js and Express.js. I also collaborate with team members to ensure high-quality software delivery.</p>
           </div>
         </div>
@@ -30,7 +30,7 @@ const About = () => {
           <p className='text-2xl font-bold'>Frontend Developer Intern | Coding Gujju</p>
           <p className='text-sm'>Jun ‘23 - Jul ‘23</p>
         </div>
-        <div className='py-4'>
+        <div className='py-4 text-gray-500'>
           <p>During my internship, I gained proficiency in HTML, CSS, JavaScript, and the basics of ReactJS. Leveraging this knowledge, I successfully developed my personal portfolio. This experience not only enhanced my technical skills but also provided me with practical insights into frontend development..</p>
           </div>
           </div>
