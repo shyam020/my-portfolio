@@ -6,7 +6,7 @@ import scss from '../assects/sass.png';
 import less from '../assects/Less.js.png'
 import javascript from '../assects/js.png';
 import reactjs from '../assects/react.svg';
-import nextjs from '../assects/nextjs.svg';
+// import nextjs from '../assects/nextjs.svg';
 import tailwind from '../assects/Tailwind CSS.png';
 import reactbootstrap from '../assects/React Bootstrap.png';
 import matiralui from '../assects/Material UI.png'
@@ -62,7 +62,7 @@ const Skills = () => {
       { id: 8, src: redux, title: 'REDUX', style: 'shadow-white'},
       { id: 9, src: reactbootstrap, title: 'REACT BOOTSTRAP', style: 'shadow-white' },
        { id: 10, src: matiralui, title: 'MATERIAL UI', style: 'shadow-white' },
-      { id: 11, src: nextjs, title: 'NEXT JS', style: 'shadow-white' },
+      // { id: 11, src: nextjs, title: 'NEXT JS', style: 'shadow-white' },
     
     ],
     
